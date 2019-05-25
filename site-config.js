@@ -53,7 +53,7 @@ module.exports = {
     {
       title: "Sempre aggiornata",
       description:
-        "Le sorgenti dati sono gli Open Data pubblicati sul sito \"Ministero dello sviluppo economico\". Viene aggiornato quotidianamente!",
+        "Le sorgenti dati sono gli Open Data pubblicati sul sito \"Ministero dello sviluppo economico\". Vengono aggiornate quotidianamente!",
       fontawesome_icon_name: "sync",
     },
   ],
