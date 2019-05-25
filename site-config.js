@@ -17,7 +17,7 @@ module.exports = {
   your_link              : "https://www.mattianatali.it",
   your_city              : "Milano",
   email_address          : "mattianatalidev@gmail.com",
-  facebook_username      : "mattia.natali",
+  facebook_username      : "gaslowapp",
   linkedin_username      : "mattian",
   instagram_username     : null,
   twitter_username       : null,
@@ -59,7 +59,7 @@ module.exports = {
   ],
   header_background             : "rgba(0, 0, 0, 0.1)",
   topbar_title_color            : "#fff",
-  cover_overlay_color_rgba      : "rgba(10, 0, 20, 0.9)",
+  cover_overlay_color_rgba      : "rgba(10, 0, 20, 0.85)",
   device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
   body_background_color         : "#000",
   primary_text_color            : "#fff",
