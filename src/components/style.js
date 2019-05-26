@@ -88,7 +88,7 @@ export default createGlobalStyle`
     padding-left: 15px;
     padding-right: 15px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 115px 876px auto auto;
+    grid-template-rows: 115px 700px auto auto;
     grid-column-gap: 30px;
     grid-template-areas:
       "h h h h h h h h h h h h"
@@ -316,6 +316,15 @@ export default createGlobalStyle`
     margin-left: 26px;
     margin-top: 23px;
     box-shadow: 0 0 30px black;
+  }
+
+  .gaslow-slide .slick-list {
+    width: 359px;
+    box-shadow: 0 0 30px black;
+    margin: auto;
+  }
+
+  .iphoneScreenSlideshow {
   }
 
   .videoContainer {
