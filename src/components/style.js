@@ -352,6 +352,10 @@ export default createGlobalStyle`
       margin-top: 22px;
     }
 
+    .gaslow-slide .slick-list {
+      width: 332px;
+    }
+
     .videoContainer {
       width: 322px;
       height: 698px;
@@ -379,6 +383,10 @@ export default createGlobalStyle`
       width: 226px;
       margin: 0px;
       margin-top: 17px;
+    }
+
+    .gaslow-slide .slick-list {
+      width: 236px;
     }
 
     .videoContainer {
