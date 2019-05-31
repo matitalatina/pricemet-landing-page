@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import urljoin from "url-join";
 
 function SEO({ description, lang, meta, keywords, title }) {
   const { seoImage, site } = useStaticQuery(
@@ -19,6 +20,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             title
             description
             author
+            siteUrl
           }
         }
         seoImage: file(relativePath: { eq: "landing-cover.jpg" }) {
@@ -33,7 +35,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description;
-
+  const seoImageUrl = urljoin(site.siteMetadata.siteUrl, seoImage.childImageSharp.fixed.src);
   return (
     <Helmet
       htmlAttributes={{
@@ -52,11 +54,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: `${seoImage.childImageSharp.fixed.src}`,
+          content: seoImageUrl,
         },
         {
           property: `twitter:image`,
-          content: `${seoImage.childImageSharp.fixed.src}`,
+          content: seoImageUrl,
         },
         {
           property: `og:description`,
