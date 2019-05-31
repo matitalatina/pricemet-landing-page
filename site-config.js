@@ -9,7 +9,7 @@ module.exports = {
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "GasLow",
   app_price             : "Gratis",
-  app_description       : "La benzina al miglior prezzo.",
+  app_description       : "Usa i tuoi soldi per le cose che ti interessano davvero. Comincia a risparmiare sul carburante usando GasLow. Scarica l'app dal Play Store.",
   app_keywords          : ["carburanti", "sconti", "benzina", "gasolio"],
 
   // Personal Info

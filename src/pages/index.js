@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" keywords={configs.app_keywords} />
+      <SEO title={configs.app_name} keywords={configs.app_keywords} />
 
       <div
         className="imageWrapper"
