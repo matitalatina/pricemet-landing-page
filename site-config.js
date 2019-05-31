@@ -1,11 +1,11 @@
 module.exports = {
   // App Info
-  appstore_link         : null,                                  // Enter App Store URL.
+  appstore_link         : null,                                                   // Enter App Store URL.
   playstore_link        : "https://play.google.com/store/apps/details?id=it.mattianatali.gaslowapp&hl=it",                                  // Enter Google Play Store URL.
-  google_analytics_ID   : "UA-47311644-5",                                        // Enter Google Analytics ID or ""
-  presskit_download_link: null,                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+  google_analytics_ID   : "UA-141237367-1",                                       // Enter Google Analytics ID or ""
+  presskit_download_link: null,                                                   // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
   video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
-  app_url               : "https://gaslow.mattianatali.it",                            // Domain of your website without path_prefix.
+  app_url               : "https://gaslow.mattianatali.it",                       // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "GasLow",
   app_price             : "Gratis",
