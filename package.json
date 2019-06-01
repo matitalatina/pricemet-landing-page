@@ -1,8 +1,8 @@
 {
-  "name": "automatic-gatsbyjs-app-landing-page",
-  "description": "Automatically generate iOS app landing page using GatsbyJS",
+  "name": "gaslow-landing-page",
+  "description": "GasLow Landing page",
   "version": "1.0.0",
-  "author": "Imed Adel <aadelimed@gmail.com>",
+  "author": "Mattia Natali <me@mattianatali.it>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.27",

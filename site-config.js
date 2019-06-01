@@ -16,7 +16,7 @@ module.exports = {
   your_name              : "Mattia Natali",
   your_link              : "https://www.mattianatali.it",
   your_city              : "Milano",
-  email_address          : "mattianatalidev@gmail.com",
+  email_address          : "me@mattianatali.it",
   facebook_username      : "gaslowapp",
   linkedin_username      : "mattian",
   instagram_username     : null,
