@@ -1,6 +1,6 @@
 module.exports = {
   // App Info
-  appstore_link         : "https://apps.apple.com/it/app/metext-estrai-testo-ocr/id1510120975",               // Enter App Store URL.
+  appstore_link         : "https://apps.apple.com/it/app/gaslow-prezzo-carburanti/id1510630580",              // Enter App Store URL.
   playstore_link        : "https://play.google.com/store/apps/details?id=it.mattianatali.gaslowapp&hl=it",    // Enter Google Play Store URL.
   google_analytics_ID   : "UA-141237367-1",                                       // Enter Google Analytics ID or ""
   presskit_download_link: null,                                                   // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
