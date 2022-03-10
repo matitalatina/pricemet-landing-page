@@ -298,7 +298,7 @@ export const query = graphql`
         }
       }
     }
-    headerImage: file(relativePath: { eq: "headerimage.png" }) {
+    headerImage: file(relativePath: { eq: "headerimage.jpg" }) {
       childImageSharp {
         fluid(maxHeight: 714) {
           ...GatsbyImageSharpFluid
