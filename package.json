@@ -1,6 +1,6 @@
 {
-  "name": "gaslow-landing-page",
-  "description": "GasLow Landing page",
+  "name": "pricemet-landing-page",
+  "description": "PriceMet Landing page",
   "version": "1.0.0",
   "author": "Mattia Natali <me@mattianatali.it>",
   "dependencies": {

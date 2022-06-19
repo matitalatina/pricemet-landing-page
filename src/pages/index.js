@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    className: 'gaslow-slide',
+    className: 'pricemet-slide',
   };
 
   const slideshow = configs.video_or_screenshot === "screenshot" ? <Slider {...slideshowSettings}>
@@ -135,6 +135,9 @@ const IndexPage = ({ data }) => {
                       className="appStore"
                     />
                   </a>
+                )}
+                {!configs.appstore_link && !configs.playstore_link && (
+                  <p className="appDescription">Disponibile prossimamente negli store mobile</p>
                 )}
               </div>
             </div>

@@ -318,8 +318,8 @@ export default createGlobalStyle`
     box-shadow: 0 0 30px black;
   }
 
-  .gaslow-slide .slick-list {
-    width: 359px;
+  .pricemet-slide .slick-list {
+    width: 309px;
     box-shadow: 0 0 30px black;
     margin: auto;
   }
@@ -352,8 +352,8 @@ export default createGlobalStyle`
       margin-top: 22px;
     }
 
-    .gaslow-slide .slick-list {
-      width: 332px;
+    .pricemet-slide .slick-list {
+      width: 292px;
     }
 
     .videoContainer {
@@ -385,7 +385,7 @@ export default createGlobalStyle`
       margin-top: 17px;
     }
 
-    .gaslow-slide .slick-list {
+    .pricemet-slide .slick-list {
       width: 236px;
     }
 
